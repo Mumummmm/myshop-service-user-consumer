@@ -1,4 +1,4 @@
-package com.spike.myshop.service.consumer.controller;
+package com.spike.myshop.service.user.consumer.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.github.pagehelper.PageInfo;

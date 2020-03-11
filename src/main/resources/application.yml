@@ -20,7 +20,7 @@ services:
 # Dubbo Config properties
 dubbo:
   scan:
-    basePackages: com.spike.myshop.service.user.consumer.controller
+    basePackages: com.spike.myshop.service.user.consumer
   ## ApplicationConfig Bean
   application:
     id: myshop-service-user-consumer
@@ -29,6 +29,8 @@ dubbo:
   protocol:
     id: dubbo
     name: dubbo
+    port: 30881
+    status: server
     serialization: kryo
   ## RegistryConfig Bean
   registry:

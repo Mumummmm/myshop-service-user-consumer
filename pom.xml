@@ -45,7 +45,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.spike.myshop.service.consumer.MyShopServiceUserConsumerApplication</mainClass>
+                    <mainClass>com.spike.myshop.service.user.consumer.MyShopServiceUserConsumerApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
